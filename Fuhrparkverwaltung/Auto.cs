@@ -12,9 +12,8 @@ namespace Fuhrparkverwaltung
         private double tankinhalt;
         private double verbrauchProHundertKilometer;
 
-        public Auto (double kilometerstand, double tankinhalt, double verbrauchProSekunde)
+        public Auto (double kilometerstand, double tankinhalt, double verbrauchProSekunde) : this (kilometerstand)
         {
-            this.kilometerstand = kilometerstand;
             this.tankinhalt = tankinhalt;
             this.verbrauchProHundertKilometer = verbrauchProSekunde;
         }

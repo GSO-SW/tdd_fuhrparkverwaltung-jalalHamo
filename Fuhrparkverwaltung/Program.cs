@@ -1,2 +1,2 @@
-﻿Console.WriteLine("Hi");
+﻿Console.WriteLine("Der Dauerbrenner des Jahres");
 Console.ReadKey();
